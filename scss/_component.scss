@@ -1,0 +1,81 @@
+//NFT Card Component Main
+.main {
+    background-color: $cardDarkBlue;
+    width: 18em;
+    height: 30.25em;
+    border-radius: 1em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+//NFT Image
+.main__img img {
+    width: 15.5em;
+    margin: 0.3em 0 0 -1em;
+    border-radius: 0.5em;
+}
+
+//Title and Description
+.main__title {
+    color: $white;
+    font-size: 1.2em;
+    margin-left: 1em;
+    margin-bottom: -0.25em;
+}
+
+.main__desc {
+    margin-left: 1.3em;
+    font-size: 0.87em;
+    font-weight: 300;
+    line-height: 170%;
+}
+
+//Amount Worth and Time Remaining
+.main__eth--icon, .main__eth, .main__clock--icon, .main__clock {
+    display: inline-block;
+    font-size: 0.9em;
+    margin: auto 0;
+}
+
+.main__eth--icon, .main__clock--icon {
+    margin-right: 0.25em;
+}
+
+.main__eth--icon {
+    margin-left: 1.3em;
+}
+
+.main__eth {
+    color: $cyan;
+}
+
+.main__clock--icon {
+    margin-left: 5em;
+}
+
+//That little line 
+.line {
+    width: 15.5em;
+    margin-top: 1.1em;
+    border: solid 0.0625em $lineDarkBlue;
+}
+
+//About Section
+.main__avatar img {
+    width: 1.8em;
+    margin-left: -1em;
+    border: solid 0.0625em $white;
+    border-radius: 50%;
+}
+
+.main__author {
+    margin: -3.1em 0 0 4.5em;
+    font-size: 0.9em;
+    font-weight: 300;
+}
+
+.main__author--highlight {
+    color: $white;
+}

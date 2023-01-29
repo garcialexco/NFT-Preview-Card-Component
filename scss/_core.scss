@@ -1,0 +1,40 @@
+//Primary Colors
+$softBlue: hsl(215, 51%, 70%);
+$cyan: hsl(178, 100%, 50%);
+
+//Neutral Colors
+$mainDarkBlue: hsl(217, 54%, 11%);
+$cardDarkBlue: hsl(216, 50%, 16%);
+$lineDarkBlue: hsl(215, 32%, 27%);
+$white: hsl(0, 0%, 100%);
+
+//Typography
+$outfit: 'Outfit', sans-serif;
+$medFont: 1.125em;
+
+//Breakpoint Sizes
+$mobile: 375px;
+$desktop: 1440px;
+
+//Reset styles
+html {
+    box-sizing: border-box;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+//Body Styles
+body {
+    background-color: $mainDarkBlue;
+    color: $softBlue;
+    font: {
+        size: $medFont;
+        family: $outfit;
+    }
+    display: flex;
+}
